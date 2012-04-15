@@ -1,0 +1,14 @@
+[scala]
+  version: auto
+
+[app]
+  org: org.scala-sbt
+  name: completion-demo
+  version: 0.1
+  class: sbt.example.Main
+  components: xsbti
+
+[repositories]
+  local
+  maven-central
+  typesafe-ivy-releases: http://repo.typesafe.com/typesafe/ivy-releases/, [organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).[ext]
